@@ -10,7 +10,12 @@ load-plugins=pylint_django
 disable=missing-module-docstring,
         missing-function-docstring,
          wrong-import-order,
-         missing-final-newline
+         missing-final-newline,
+         line-too-long,
+         trailing-whitespace,
+         comparison-with-callable,
+         unused-import,
+         duplicate-code
 
 [REPORTS]
 # Set the output format. Available formats: text, parseable, colorized, json, msvs (visual studio) and html
